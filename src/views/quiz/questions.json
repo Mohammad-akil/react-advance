@@ -1,0 +1,172 @@
+[
+    {
+        "id":1,
+        "type":"multiple choice",
+        "question":"Are You Looking To Buy Or Refinance A Home?",
+        "view":"half",
+        "field":"refinance_home",
+        "fields":[],
+        "options":[
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id":2,
+        "type":"multiple choice",
+        "question":"Is This Your First Time Purchasing A Home?",
+        "view":"half",
+        "field":"first_time_purchasing",
+                "fields":[],
+        "options":[
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id":3,
+        "type":"multiple choice",
+        "question":"How Will You Use This Home?",
+        "view":"full",
+        "field":"property_use",
+        "fields":[],
+        "options":[
+            "Primary Residence",
+            "Second Home",
+            "Investment/Rental Property"
+        ]
+    },
+    {
+        "id":4,
+        "type":"dropdown",
+        "question":"What Is Your Price Range?",
+        "field":"loan_amount_range",
+        "fields":[],
+        "options":[
+            "Under $100K",
+            "$100-150K",
+            "$150-200K",
+            "$200-250K",
+            "$250-300K",
+            "$300-350K",
+            "$350-400K",
+            "$400-450K",
+            "$450-500K",
+            "$500-550K",
+            "$550-600K",
+            "$600-650K",
+            "$650-700K",
+            "$700K or more"
+        ]
+    },
+    {
+        "id":5,
+        "type":"multiple choice",
+        "question":"How Much Are You Saving For A Down Payment?",
+        "view":"full",
+        "field":"down_payment",
+        "fields":[],
+        "options":[
+            "0%",
+            "3.5%",
+            "5%",
+            "10%-20%",
+            "More than 20%",
+            "I don’t know yet"
+        ]
+    },
+    {
+        "id":6,
+        "type":"multiple choice",
+        "question":"What Is Your Current Employment Status?",
+        "field":"employment_status",
+        "view":"full",
+        "fields":[],
+        "options":[
+            "Employed",
+            "Self Employed / 1099 Independent Contractor",
+            "Retired",
+            "Not Employed"
+        ]
+    },
+    {
+        "id":7,
+        "type":"multiple choice",
+        "question":"What Is Your Household Gross Annual Income (Before Taxes)?",
+        "view":"full",
+        "field":"annual_income",
+        "fields":[],
+        "options":[
+            "Greater than $200,000",
+            "$150,000-200,000",
+            "$100,000-150,000",
+            "$75,000-100,000",
+            "$50,000-75,000",
+            "$30,000-50,000",
+            "Less than $30,000"
+        ]
+    },
+    {
+        "id":8,
+        "type":"multiple choice",
+        "question":"What Is Your Current Credit Score?",
+        "view":"full",
+        "field":"credit_score",
+        "fields":[],
+        "options":[
+            "720+",
+            "680-719",
+            "640-679",
+            "620-639",
+            "Below 620",
+            "I don’t know"
+        ]
+    },
+    {
+        "id":9,
+        "type":"multiple choice",
+        "question":"Have You (Or Your Spouse) Ever Served In The US Military?",
+        "view":"full",
+        "field":"US_Military",
+        "fields":[],
+        "options":[
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id":10,
+        "type":"input",
+        "question":"What Is Your Email Address?",
+        "view":"full",
+        "fields":["email_address"],
+        "field":"email",
+        "options":[
+            "Email"
+        ]
+    },
+    {
+        "id":11,
+        "type":"input",
+        "question":"What Is Your Name?",
+        "view":"half",
+        "fields":["first_name","last_name"],
+        "field":"name",
+        "options":[
+            "First Name",
+            "Last Name"
+        ]
+    },
+    {
+        "id":12,
+        "type":"input",
+        "question":"What Is Your Phone Number?",
+        "view":"full",
+        "fields":["phone_home"],
+        "placeholder":"(___) ___-____",
+        "field":"phone",
+        "options":[
+            "Phone"
+        ]
+    }
+]

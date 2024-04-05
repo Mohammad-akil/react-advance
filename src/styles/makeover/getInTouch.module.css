@@ -1,0 +1,62 @@
+.closeButtonArea {
+    display: flex !important;
+    justify-content: flex-end !important;
+    padding: 5px !important;
+}
+
+.getInTouchHeading {
+    color: #000 !important;
+    text-align: center !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    line-height: 22px !important;
+    /* 100% */
+    letter-spacing: 0.46px !important;
+    text-transform: uppercase !important;
+}
+
+.getInTouchSubHeading {
+    color: #000 !important;
+    text-align: center !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-size: 15px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: 23.5px !important;
+    letter-spacing: 0.46px !important;
+    margin-top: 7px !important;
+    text-transform: uppercase !important;
+}
+
+.inputLabel {
+    color: #000 !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-size: 13px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 22px !important;
+    letter-spacing: 0.46px !important;
+}
+
+.inputLabel span {
+    color: #A6A6A6 !important;
+}
+
+.textField {
+    background-color: white !important;
+}
+
+.submitArea {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 30px !important;
+}
+
+.submitButton {
+    background-color: black !important;
+    color: white !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    border-radius: 7px !important;
+}

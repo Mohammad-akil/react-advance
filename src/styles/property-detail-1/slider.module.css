@@ -1,0 +1,98 @@
+.SliderArea {
+    position: relative !important;
+}
+
+.sliderSettingArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -6px;
+    background-color: #333333 !important;
+    z-index: 99999999999999 !important;
+    height: 80px !important;
+    overflow: hidden !important;
+}
+
+.sliderSettingSlider {
+    width: calc(100% - 360px);
+    height: 80px;
+    margin: 0px 30px;
+    background-color: black;
+}
+
+.sliderSettingButtonsArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    height: 78px !important;
+    z-index: 99 !important;
+}
+
+.sliderSettingButton {
+    width: 100px !important;
+    height: 78px !important;
+    background: black;
+    color: white;
+    border-left: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sliderSettingButton:hover {
+    background-color: #0064f5;
+}
+
+.sliderSettingButtonInside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.sliderSettingButtonInsideDes {
+    font-size: 14px !important;
+    text-align: center !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+}
+
+
+
+@media screen and (max-width: 575px) {
+    .sliderSettingArea {
+        display: none !important;
+    }
+}
+
+.SliderAreaItem {
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+}
+
+.imageContainer {
+    position: relative;
+    width: 100%;
+    /* Ensure the container takes up the available width */
+    padding-top: 75%;
+    /* Set the aspect ratio (adjust as needed) */
+    overflow: hidden !important;
+    /* Hide overflow, so the image fits horizontally */
+}
+
+.responsiveImage {
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    /* Ensure the image fits horizontally */
+    height: 100% !important;
+    /* Maintain the aspect ratio */
+    z-index: 5 !important;
+    /* Maintain image aspect ratio while fitting horizontally */
+    cursor: pointer !important;
+    border: 1px solid lightgray !important;
+}

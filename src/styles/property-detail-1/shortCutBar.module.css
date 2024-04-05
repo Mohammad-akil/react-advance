@@ -1,0 +1,237 @@
+.shortCutBarContainer {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+}
+
+.shortCutBarArea {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 0px 40px !important;
+    z-index: 99 !important;
+    flex-wrap: wrap !important;
+    height: 40px !important;
+}
+
+.shortCutBarAreaFixed {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 0px 40px !important;
+    z-index: 9999 !important;
+    flex-wrap: nowrap !important;
+    height: 70px !important;
+}
+
+.shortCutBarBackLink {
+    cursor: pointer !important;
+    color: black !important;
+    font-size: 14px !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    padding: 13px 0px !important;
+    margin-bottom: 0px !important;
+    white-space: nowrap !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 0px 3px !important;
+}
+
+.shortCutBarAreaItem {
+    cursor: pointer !important;
+    color: #6c6c6c !important;
+    font-size: 14px !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    padding: 13px 0px !important;
+    margin-bottom: 0px !important;
+    white-space: nowrap !important;
+}
+
+.shortCutBarAreaItem:hover {
+    color: #0064e5 !important;
+}
+
+@media screen and (min-width: 768px) {
+    .shortCutBarArea {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow: hidden !important;
+    }
+
+    .shortCutBarAreaFixed {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow: hidden !important;
+    }
+
+    .shortCutBarAreaMB {
+        display: none !important;
+    }
+
+    .statsBarItemAreaShare {
+        display: flex !important;
+        justify-content: flex-end !important;
+        align-items: center !important;
+        gap: 0px 10px !important;
+    }
+
+    .statsBarItemAreaShareMB {
+        display: none !important;
+    }
+
+    .backButtonMb {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .shortCutBarArea {
+        display: none !important;
+    }
+
+    .backButtonMb {
+        display: block !important;
+        margin-top: 5px !important;
+    }
+
+    .shortCutBarAreaFixed {
+        display: none !important;
+    }
+
+    .shortCutBarAreaMB {
+        display: block !important;
+    }
+
+    .statsBarItemAreaShare {
+        display: none !important;
+    }
+
+    .statsBarItemAreaShareMB {
+        display: flex !important;
+        justify-content: flex-end !important;
+        align-items: center !important;
+    }
+}
+
+.fixedShortCutBarPc {
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 999 !important;
+    background-color: white !important;
+    box-shadow: 0 0px 2px rgba(0, 0, 0, .3) !important;
+    padding: 5px 0px !important;
+    width: 100% !important;
+    height: 57px !important;
+}
+
+.fixedShortCutBarArea {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-top: -8px !important;
+}
+
+.paginationArea {
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    gap: 0px 40px !important;
+    height: 40px !important;
+}
+
+@media screen and (max-width: 1100px) {
+    .paginationArea {
+        display: none !important;
+    }
+}
+
+.paginationAreaItem {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0px 6px !important;
+    cursor: pointer !important;
+    text-transform: capitalize !important;
+}
+
+.paginationAreaItem:disabled {
+    color: #dddddd !important;
+    cursor: not-allowed !important;
+}
+
+.paginationAreaItem:disabled .paginationAreaItemText {
+    color: #dddddd !important;
+    cursor: not-allowed !important;
+}
+
+
+.paginationAreaItemText {
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 14px !important;
+    color: black !important;
+    line-height: 17px !important;
+    margin-top: .6px !important;
+    z-index: 999 !important;
+}
+
+
+
+.statsShareButton {
+    color: #0064f5 !important;
+    padding: 7px 15px !important;
+    min-width: 120px !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    text-transform: capitalize !important;
+}
+
+.statsShareButton:hover {
+    background-color: #f4f4f4 !important;
+}
+
+.shortCutBarAreaMBHeading {
+    font-size: 17px !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    line-height: 60px !important;
+    margin-bottom: 0px !important;
+    color: black !important;
+    width: 100% !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+}
+
+.statsBarShareItem {
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+
+}
+
+/* Default container styles */
+.propertyContainer {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    transition: max-width 1s ease-in-out !important;
+  }
+
+  /* Media query for increasing the width smoothly between 1200px and 1536px */
+  @media (min-width: 1200px) and (max-width: 1535px) {
+    .propertyContainer {
+        max-width: 1200px !important;
+    }
+  }
+  @media (min-width: 1535px) and (max-width: 1800px) {
+    .propertyContainer {
+        max-width: 1368px !important;
+    }
+  }
+
+  /* Media query for handling screens larger than 1535px */
+  @media (min-width: 1800px) {
+    .propertyContainer {
+      max-width: 1536px !important;
+    }
+  }

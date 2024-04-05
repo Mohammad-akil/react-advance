@@ -1,0 +1,207 @@
+.mapViewSectionHeading {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: capitalize !important;
+    color: #666666 !important;
+}
+
+.mapViewMarker {
+    background-color: black;
+    width: 36px;
+    height: 36px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.mapViewButton {
+    position: absolute !important;
+    bottom: 10px !important;
+    left: 10px !important;
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+    background-color: #4c516d !important;
+    color: white !important;
+    white-space: nowrap !important;
+    z-index: 100 !important;
+    min-width: 135px !important;
+}
+
+.mapViewButton:hover {
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+    background-color: #383a47 !important;
+    font-weight: 600 !important;
+    color: white !important;
+}
+
+.streetViewButton {
+    position: absolute !important;
+    bottom: 50px !important;
+    left: 10px !important;
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+    background-color: #4c516d !important;
+    color: white !important;
+    font-weight: 600 !important;
+    white-space: nowrap !important;
+    z-index: 100 !important;
+    min-width: 135px !important;
+}
+
+.streetViewButton:hover {
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+    background-color: #383a47 !important;
+    font-weight: 600 !important;
+    color: white !important;
+}
+
+.satelliteViewButton {
+    position: absolute !important;
+    bottom: 90px !important;
+    left: 10px !important;
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+    background-color: #4c516d !important;
+    color: white !important;
+    font-weight: 600 !important;
+    white-space: nowrap !important;
+    z-index: 100 !important;
+    min-width: 135px !important;
+}
+
+.satelliteViewButton:hover {
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+    background-color: #383a47 !important;
+    font-weight: 600 !important;
+    color: white !important;
+}
+
+.mapStreetViewNotAvailable {
+    height: 80vh;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.notAvailableText {
+    margin-top: 20px !important;
+    font-size: 16px !important;
+    text-transform: capitalize !important;
+    color: #666666 !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+}
+
+.mapListingDisclosure {
+    font-size: 14px !important;
+    color: #000 !important;
+    margin-top: 8px !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+}
+
+.infoWindowArea {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    flex-direction: column !important;
+    gap: 0px 10px !important;
+    width: 285px !important;
+}
+
+
+
+@media screen and (min-width: 575px) {
+    .infoWindowAreaRight {
+        width: 285px !important;
+        padding: 0px 12px!important;
+        margin-top: 6px !important;
+    }
+
+    .infoWindowAreaRightHeading {
+        font-family: "AvenirNextLTPro-Regular" !important;
+        font-size: 13px !important;
+        align-items: center;
+        color: black !important;
+
+    }
+
+    .infoWindowAreaRightPrice {
+        font-family: "AvenirNextLTPro-Demi" !important;
+        font-size: 15px !important;
+        align-items: center;
+        color: black !important;
+    }
+
+    .infoWindowAreaRightStats {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Regular" !important;
+        flex-wrap: wrap !important;
+        font-size: 13px !important;
+        margin-top: 5px !important;
+    }
+}
+.infoWindowMlsNumber{
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 13px !important; 
+    color: grey !important;
+    margin-top: 5px !important;
+}
+@media screen and (max-width: 575px) {
+    .infoWindowAreaRight {
+        width: 285px !important;
+        padding: 0px 12px !important;
+    }
+
+    .infoWindowAreaRightHeading {
+        font-family: "AvenirNextLTPro-Regular" !important;
+        font-size: 13px !important;
+        align-items: center;
+        color: black !important;
+
+
+    }
+
+    .infoWindowAreaRightPrice {
+        font-family: "AvenirNextLTPro-Demi" !important;
+        font-size: 13px !important;
+        align-items: center;
+        color: black !important;
+    }
+
+    .infoWindowAreaRightStats {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Regular" !important;
+        font-size: 12px !important;
+        margin-top: 5px !important;
+    }
+}
+
+.polygonButton{
+    position: absolute !important;
+    left: 10px !important;
+    top: 60px !important;
+    background-color: white !important;
+    color: black !important;
+    z-index: 2 !important;
+}
+
+.polygonButton svg{
+    color: black !important;
+}
+/* 
+.infoWindowImage{
+    position: absolute !important;
+    top: 0px !important;
+    right: 0px !important;
+    top: 0px !important;
+} */

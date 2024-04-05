@@ -1,0 +1,110 @@
+
+
+.savedSearchesItem {
+    padding: 20px 0px !important;
+}
+
+
+
+@media screen and (max-width: 575px) {
+    .saveSearchPage {
+        padding: 40px 0px !important;
+        min-height: 100ch !important;
+    }
+    .searchTitle {
+        color: black !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        font-weight: 600 !important;
+        font-size: 20px !important;
+        width: 80% !important;
+    }
+}
+
+@media screen and (min-width: 575px) {
+
+    .searchTitle {
+        color: black !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        font-weight: 600 !important;
+        font-size: 20px !important;
+    }
+    .saveSearchPage {
+        padding: 80px 0px !important;
+        min-height: 100ch !important;
+    }
+}
+.searchesHeader {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    gap: 15px !important;
+    flex-wrap: wrap !important;
+}
+.searchesCount {
+    height:45px !important;
+    width: 45px !important;
+    padding: 5px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    background-color: black !important;
+    color: white !important;
+    font-family: 500 !important;
+    font-size: calc(0.4 * 30px);
+}
+
+
+.viewAllButton {
+    background-color: black !important;
+    color: white !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-size: 12px !important;
+}
+
+.editButton {
+    font-family: "AvenirNextLTPro-Regular" !important;
+    color: black !important;
+    font-size: 12px !important;
+}
+
+@media screen and (min-width: 768px) {
+    .searchTitle {
+        min-width: 400px;
+    }
+}
+
+.searchesMainArea {
+    overflow: hidden !important;
+}
+.noResultArea {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    height: 50vh !important;
+}
+
+.noResultAreaInner {
+    max-width: 420px !important;
+}
+
+.noResultFoundHeading {
+    font-size: 18px !important;
+    white-space: nowrap;
+    font-weight: 600 !important;
+    color: black !important;
+    text-overflow: ellipsis;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    text-align: center !important;
+}
+
+/* 
+  font-family: "AvenirNextLTPro-Bold";
+  font-family: "AvenirNextLTPro-Demi";
+  font-family: "AvenirNextLTPro-Regular";
+*/

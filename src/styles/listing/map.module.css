@@ -1,0 +1,48 @@
+
+
+@media screen and (min-width: 768px) {
+    .listingMapSection {
+        background-color: black !important;
+        padding-top: 30px !important;
+    }
+    .listingMapHeading {
+        font-size: 35px !important;
+        color: white !important;
+        font-family: "AvenirNextLTPro-Bold" !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+        padding-bottom: 15px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .listingMapHeading {
+        font-size: 25px !important;
+        color: white !important;
+        font-family: "AvenirNextLTPro-Bold" !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+        padding-bottom: 10px !important;
+    }
+    .listingMapSection {
+        background-color: black !important;
+        padding-top: 5px !important;
+    }
+}
+
+/* styles.css */
+.iframeContainer {
+    position: relative !important;
+    overflow: hidden !important;
+    padding-top: 40% !important;
+    /* 16:9 aspect ratio (height/width) */
+    min-height: 350px !important;
+}
+
+.iframeContainer iframe {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+}

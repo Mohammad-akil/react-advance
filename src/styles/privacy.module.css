@@ -1,0 +1,43 @@
+.privacyPolicyPage{
+    min-height: 100vh !important;
+    padding: 50px 0px !important;
+}
+
+.privacyPolicyHeading{
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 32px !important;
+    font-weight: 500 !important;
+    margin-bottom: 30px !important;
+    color: black !important;
+}
+.privacyPolicySubHeading{
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 26px !important;
+    font-weight: 400 !important;
+    color: black !important;
+    margin-bottom: 30px !important;
+}
+.privacyPolicySubHeading1{
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 22px !important;
+    font-weight: 400 !important;
+    margin-bottom: 30px !important; 
+    color: black !important;
+}
+.privacyPolicyContent{
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-size: 17px !important;
+    font-weight: 500 !important;
+    margin-bottom: 30px !important;
+    color: black !important;
+}
+.privacyPolicyContent span{
+    font-weight: 600 !important; 
+    color: black !important;
+}
+.privacyPolicyContent a{
+    color: black !important;
+}
+.privacyPolicyContent a:hover{
+   text-decoration: underline !important;
+}

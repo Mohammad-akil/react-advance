@@ -1,0 +1,332 @@
+.modalHeading {
+    text-align: center !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 20px !important;
+    color: #000000 !important;
+}
+
+.modalCloseButton {
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+}
+
+.continueWithEmailArea {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+@media screen and (min-width: 575px) {
+
+    .modalHeadingSp {
+        display: inline-block !important;
+    }
+
+    .continueWithEmailAreaInner {
+        width: 75% !important;
+        margin-top: 40px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .signUpAreaWider {
+        width: 100% !important;
+        margin-top: 40px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .signUpAreaNarrow {
+        width: 75% !important;
+        margin-top: 40px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .socialLoginButtons {
+        width: 60% !important;
+    }
+
+    .signInWithGoogleIconOuterBox {
+        height: 40.7px !important;
+        width: 40.7px !important;
+        background-color: white !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        border-top-left-radius: 4px !important;
+        border-bottom-left-radius: 4px !important;
+        margin-right: 35px !important;
+    }
+
+    .signInWithFaceBookIcon {
+        margin-right: 30px !important;
+    }
+
+    .privacyDescription {
+        font-family: "AvenirNextLTPro-Regular" !important;
+        font-size: 12.8px !important;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+
+    .modalHeadingSp {
+        display: none !important;
+    }
+
+    .continueWithEmailAreaInner {
+        width: 100% !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .signUpAreaWider {
+        width: 100% !important;
+        max-width: 350px !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .signUpAreaNarrow {
+        width: 100% !important;
+        max-width: 380px !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .socialLoginButtons {
+        width: 85% !important;
+        max-width: 300px !important;
+    }
+
+    .signInWithGoogleIconOuterBox {
+        height: 37px !important;
+        width: 37px !important;
+        background-color: white !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        border-top-left-radius: 4px !important;
+        border-bottom-left-radius: 4px !important;
+        margin-right: 20px !important;
+    }
+
+    .signInWithFaceBookIcon {
+        margin-right: 5px !important;
+    }
+
+    .privacyDescription {
+        font-family: "AvenirNextLTPro-Regular" !important;
+        font-size: 11px !important;
+        text-align: center;
+    }
+}
+
+
+
+
+
+.continueWithEmailButton:hover {
+    color: white !important;
+}
+
+.socialLoginButtonsArea {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 30px !important;
+}
+
+@media screen and (min-width: 575px) {
+    .signInWithGoogle {
+        height: 44px !important;
+        text-transform: capitalize !important;
+        font-family: "AvenirNextLTPro-Regular" !important;
+        font-size: 16px !important;
+        background-color: #1974e8 !important;
+        color: white !important;
+        justify-content: flex-start !important;
+        padding-left: 4px !important;
+        margin-top: 10px !important;
+    }
+
+    .signInWithFaceBook {
+        height: 44px !important;
+        text-transform: capitalize !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        font-size: 16px !important;
+        color: #1974e8 !important;
+        background-color: white !important;
+        justify-content: flex-start !important;
+        padding-left: 4px !important;
+        margin-top: 20px !important;
+        margin-bottom: 40px;
+    }
+    .signInWithFaceApple{
+        height: 44px !important;
+        text-transform: capitalize !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        font-size: 16px !important;
+        color: white !important;
+        background-color: black !important;
+        justify-content: flex-start !important;
+        padding-left: 4px !important;
+        margin-top: 20px !important;
+        margin-bottom: 40px;  
+    }
+    .continueEmailTextField input {
+        padding: 13px 14px !important;
+        font-family: "AvenirNextLTPro-Regular" !important;
+
+    }
+
+    .continueWithEmailButton {
+        margin-top: 20px !important;
+        height: 50px !important;
+        background-color: black !important;
+        color: white !important;
+        text-transform: capitalize !important;
+        font-family: "AvenirNextLTPro-Regular" !important;
+        font-size: 16px !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .signInWithGoogle {
+        height: 40px !important;
+        text-transform: capitalize !important;
+        font-family: "AvenirNextLTPro-Regular" !important;
+        font-size: 14px !important;
+        background-color: #1974e8 !important;
+        color: white !important;
+        justify-content: flex-start !important;
+        padding-left: 4px !important;
+        margin-top: 10px !important;
+    }
+
+    .signInWithFaceBook {
+        height: 37px !important;
+        text-transform: capitalize !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        font-size: 14px !important;
+        color: #1974e8 !important;
+        background-color: white !important;
+        justify-content: flex-start !important;
+        padding-left: 4px !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px;
+    }
+.signInWithFaceApple{
+    height: 37px !important;
+    text-transform: capitalize !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 14px !important;
+    color: white !important;
+    background-color: black !important;
+    justify-content: flex-start !important;
+    padding-left: 4px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px;
+}
+    .continueEmailTextField input {
+        padding: 8px 14px !important;
+        font-family: "AvenirNextLTPro-Regular" !important;
+        font-size: 14px !important;
+
+    }
+
+    .continueWithEmailButton {
+        margin-top: 15px !important;
+        height: 40px !important;
+        background-color: black !important;
+        color: white !important;
+        text-transform: capitalize !important;
+        font-family: "AvenirNextLTPro-Regular" !important;
+        font-size: 14px !important;
+    }
+
+    .loginLinkArea {
+        font-size: 14px !important;
+    }
+}
+
+
+
+
+
+
+.signInWithGoogleIcon {
+    position: relative !important;
+    height: 28px !important;
+    width: 28px !important;
+}
+
+
+.loginLinkArea {
+    font-family: "AvenirNextLTPro-Regular" !important;
+    text-align: center !important;
+    margin: 10px 0px;
+}
+
+.loginLinkArea span {
+    cursor: pointer;
+    text-decoration: underline !important;
+    color: #5a7bc0 !important;
+}
+
+.loginLinkArea a {
+    cursor: pointer;
+    text-decoration: underline !important;
+    color: #5a7bc0 !important;
+
+}
+
+.customModalDivider {
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .2) !important;
+    height: 2px !important;
+}
+
+.customModalDividerChip {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2) !important;
+    background-color: white !important;
+    margin-top: -23px !important;
+    z-index: 9999 !important;
+    width: 42px !important;
+    height: 40px !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    border-radius: 50% !important;
+    margin-top: 1px;
+    font-size: 16px !important;
+}
+
+.customModalDividerChipArea {
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9 !important;
+    margin-top: 4px;
+}
+
+
+
+.privacyDescription span {
+    color: #1974e8 !important;
+    cursor: pointer;
+}
+
+.privacyDescription span:hover {
+    text-decoration: underline !important;
+}
+
+.continueWithEmailButtonArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customLabel {
+    font-family: "AvenirNextLTPro-Demi" !important;
+}
+
+.contactFormFieldArea input {
+    color: #666666 !important;
+}

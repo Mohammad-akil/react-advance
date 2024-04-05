@@ -1,0 +1,55 @@
+@media screen and (max-width: 768px) {
+    .propertyLocationArea {
+        padding: 20px 0px !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .propertyLocationArea {
+        padding: 40px 0px !important;
+    }
+}
+
+.propertyLocationHeading {
+    font-size: 26px !important;
+    font-weight: 500 !important;
+    color: black !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+}
+
+.propertySubHeaderItem {
+    font-size: 14px !important;
+    color: #0064e5 !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+}
+
+.propertySubHeaderItemInfo {
+    font-size: 14px !important;
+    color: black !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+}
+
+.propertySubHeader {
+    display: flex !important;
+    justify-content: flex-start !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+}
+
+.locationUnavailableArea {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: rgba(0,0,0,.1) !important;
+}
+
+.locationUnavailableAreaContent {
+    color: black !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 16px !important;
+}

@@ -1,0 +1,176 @@
+.advanceSearchPage {
+    margin-bottom: 30px;
+    min-height: 100vh;
+
+}
+
+.advanceSearchPageHeading {
+    font-size: 24px !important;
+    white-space: nowrap;
+    font-weight: 600 !important;
+    color: #666666 !important;
+    text-overflow: ellipsis !important;
+    margin-top: 30px !important;
+    margin-bottom: 15px !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+}
+
+.advanceSearchStatCard {
+
+    margin-top: 12px;
+}
+
+.advanceSearchStatCardTop {
+    background-color: #4c516d;
+    color: white;
+    padding: 25px 20px;
+}
+
+.advanceSearchStatCardTopHeading {
+    font-size: 26px !important;
+}
+
+.advanceSearchStatCardTopDes {
+    font-size: 14px !important;
+}
+
+.advanceSearchStatCardBottom {
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+.advanceSearchStatCardBottomHeading {
+    font-size: 16px !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+.propertyTypeArea {
+    padding: 20px 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+.propertyTypeAreaHeading {
+    font-size: 18px !important;
+    white-space: nowrap;
+    font-weight: 600 !important;
+    color: #666666 !important;
+    text-overflow: ellipsis;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: "AvenirNextLTPro-Demi" !important;
+}
+
+.propertyTypeAreaItems {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.propertyTypeAreaItemDes {
+    font-size: 16px !important;
+    white-space: nowrap;
+    color: #666666 !important;
+    padding: 6.5px 10px;
+    border-right: 1px solid lightgrey;
+    min-width: 18ch !important;
+    line-height: 30px !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+}
+
+.propertyTypeAreaItem {
+    display: flex;
+    height: 45px !important;
+}
+
+.searchInputLabel {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.resetResultsButton {
+    color: #4c516d !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 18px !important;
+    text-transform: capitalize !important;
+    min-width: 120px !important;
+}
+
+.listResultsButton {
+    text-transform: capitalize !important;
+    background-color: #4c516d !important;
+    color: white !important;
+    font-weight: 600 !important;
+    white-space: nowrap !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 18px !important;
+}
+
+.listResultsButton:hover {
+    text-transform: capitalize !important;
+    background-color: #383a47 !important;
+    font-weight: 600 !important;
+    color: white !important;
+
+}
+
+.locationTypeFields {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap !important;
+}
+
+
+
+@media screen and (max-width: 667px) {
+    .locationTypeField1 {
+        min-width: 100% !important;
+    }
+}
+@media screen and (min-width: 667px) {
+    .locationTypeField1 {
+        min-width: 350px !important;
+    }
+}
+.locationTypeField2 {
+    flex: 1;
+    min-width: 250px !important;
+}
+
+.locationTypeDropdown {
+    background-color: #666 !important;
+    color: white !important;
+    border: 1px solid #666 !important;
+}
+
+.customInputLabel {
+    font-family: "AvenirNextLTPro-Demi" !important;
+    margin-bottom: 15px;
+}
+
+.selectedList{
+    margin-top: 20px !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 20px !important;
+    flex-wrap: wrap !important;
+}
+.groupIconArea {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 0px 7px !important;
+    padding: 8px !important;
+    font-weight: 600 !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+}
+.groupIconArea svg{
+    font-size: 20px !important;
+}

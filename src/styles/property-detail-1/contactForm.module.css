@@ -1,0 +1,122 @@
+.propertyContactFormBox {
+    padding: 0px 24px !important;
+}
+
+.contactFormField {
+    margin-bottom: 15px !important;
+
+}
+
+.contactFormFieldLabel {
+    font-family: "AvenirNextLTPro-Regular" !important;
+}
+
+.contactFormField input {
+    font-family: "AvenirNextLTPro-Regular" !important;
+    color: #6c6c6c !important;
+}
+
+.contactFormField label {
+    font-family: "AvenirNextLTPro-Regular" !important;
+    color: #6c6c6c !important;
+}
+
+.contactFormField textarea {
+    font-family: "AvenirNextLTPro-Regular" !important;
+    color: #6c6c6c !important;
+}
+
+.contactFormSendMessageButton {
+    text-transform: capitalize !important;
+    background-color: #0064e5 !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 16px !important;
+}
+
+.contactFormSendMessageButtonOutlined {
+    text-transform: capitalize !important;
+    color: #0064e5 !important;
+    background-color: white !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 14px !important;
+    border-color: #dadada !important;
+}
+
+.contactFormSendDescription {
+    font-family: "AvenirNextLTPro-Regular" !important;
+    color: #6c6c6c !important;
+}
+
+
+@media screen and (min-width: 575px) {
+    .contactFormPCView {
+        display: block !important;
+    }
+
+    .contactFormMBView {
+        display: none !important;
+    }
+
+    .propertyContactFormArea {
+        margin-top: 50px;
+        position: -webkit-sticky;
+        /* Safari & IE */
+        position: sticky;
+        top: 79px;
+        z-index: 199;
+    }
+
+    .contactFormHeading {
+        font-size: 22px !important;
+        color: black !important;
+        font-weight: 500 !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .contactFormPCView {
+        display: none !important;
+    }
+
+    .contactFormMBView {
+        display: block !important;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        top: initial;
+        width: 100%;
+        padding: 10px;
+        padding-bottom: 20px;
+        margin: auto;
+        border-top: 1px solid #dadada;
+        background-color: #f4f4f4;
+        z-index: 999 !important;
+    }
+
+    .contactFormHeadingArea {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 24px;
+    }
+
+    .propertyContactFormArea {
+        position: -webkit-sticky;
+        /* Safari & IE */
+        position: sticky;
+        top: 10px;
+        z-index: 199;
+    }
+
+    .contactFormHeading {
+        font-size: 18px !important;
+        color: black !important;
+        font-weight: 600 !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+    }
+
+    .propertyContactFormBox {
+        border: none !important;
+    }
+}

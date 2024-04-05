@@ -1,0 +1,58 @@
+.mbHeaderArea{
+    height: 65px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+}
+.shortCutBarBackLink {
+    cursor: pointer !important;
+    color: black !important;
+    font-size: 14px !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    padding: 13px 0px !important;
+    margin-bottom: 0px !important;
+    white-space: nowrap !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 0px 3px !important;
+}
+.paginationArea {
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    gap: 0px 15px !important;
+    height: 65px !important;
+}
+
+
+.paginationAreaItem {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0px 6px !important;
+    cursor: pointer !important;
+    text-transform: capitalize !important;
+}
+
+.paginationAreaItem:disabled {
+    color: #dddddd !important;
+    cursor: not-allowed !important;
+}
+
+.paginationAreaItem:disabled .paginationAreaItemText {
+    color: #dddddd !important;
+    cursor: not-allowed !important;
+}
+
+
+.paginationAreaItemText {
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 14px !important;
+    color: black !important;
+    line-height: 17px !important;
+    margin-top: .6px !important;
+    z-index: 2 !important;
+    white-space:  nowrap !important;
+}

@@ -1,0 +1,151 @@
+.arrowMaskWrap {
+    width: 110px;
+    height: 22px;
+    position: absolute;
+    top: 30px;
+    z-index: 0;
+}
+
+.arrowMaskWrap .mask {
+    background-color: #fff;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+
+.arrowMaskWrap svg {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: auto;
+}
+
+.arrowMaskWrap {
+    transition: clip-path 0.6s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+@media screen and (max-width:991px) {
+    .arrowMaskWrap {
+        display: none;
+    }
+}
+
+.arrowMaskLeft {
+    left: 30px;
+    clip-path: inset(0px 0px 0px 100%);
+    top: 45px !important;
+}
+
+.arrowMaskLeftAffix {
+    clip-path: inset(0px 0px 0px 0%);
+    position: absolute;
+    top: 45px !important;
+}
+
+.sectionTitle {
+    font-size: 65px;
+    color: black;
+    filter: brightness(0.5);
+    line-height: 110%;
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    text-align: right !important;
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .sectionTitle {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .sectionTitle {
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .sectionTitle {
+        text-align: left !important;
+    }
+}
+
+.section {
+    margin-bottom: 120px !important;
+    position: relative !important;
+}
+
+@media screen and (max-width:768px) {
+    .section {
+        margin-bottom: 40px !important;
+    }
+}
+
+
+
+.amenityItemList {
+    display: inline-block !important;
+    padding: 0 !important;
+    list-style: none !important;
+}
+
+.amenityItemList li {
+    display: inline-block !important;
+    float: left !important;
+    padding: 15px !important;
+    font-size: 17px !important;
+    position: relative !important;
+    color: black !important;
+}
+
+.amenityItemList li:after {
+    content: "" !important;
+    position: absolute !important;
+    height: 4px !important;
+    width: 4px !important;
+    border-radius: 4px !important;
+    left: -3px !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    margin: auto !important;
+    font-size: 21px !important;
+    color: #000000 !important;
+    background-color: #333 !important;
+}
+
+
+
+.amenityItemList li {
+    display: inline-block !important;
+    float: left !important;
+    font-size: 16px !important;
+    position: relative !important;
+    background: #f9f9f9 !important;
+    padding: 10px 14px !important;
+    margin: 10px 20px 10px 0 !important;
+    border-radius: 5px !important;
+    color: black !important;
+}
+
+.amenityItemList li:after {
+    content: unset !important;
+}
+
+@media screen and (max-width:991px) {
+    .amenityItemList li {
+        font-size: 14px !important;
+        position: relative !important;
+        background: #f6f6f6 !important;
+        padding: 8px 7px !important;
+        margin: 3px !important;
+        color: black !important;
+    }
+}

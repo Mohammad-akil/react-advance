@@ -1,0 +1,70 @@
+.agentListPage {
+    padding: 30px 0px !important;
+    margin-bottom: 50px;
+}
+
+.agentListHeading {
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 20px !important;
+    color: black !important;
+}
+
+.agentName {
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 18px !important;
+    color: black !important;
+    font-weight: 500 !important;
+}
+
+.agentCardDetail {
+    padding: 15px !important;
+}
+
+.agentEmail {
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-size: 16px !important;
+    color: black !important;
+}
+
+.agentPhone {
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-size: 14px !important;
+    color: black !important;
+}
+
+.noResultArea {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    height: 80vh !important;
+}
+
+.noResultAreaInner {
+    max-width: 420px !important;
+}
+
+
+.noResultFoundHeading {
+    font-size: 18px !important;
+    white-space: nowrap;
+    font-weight: 600 !important;
+    color: black !important;
+    text-overflow: ellipsis;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    text-align: center !important;
+}
+
+.noResultFoundContent {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #666666 !important;
+    text-overflow: ellipsis;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    text-align: center !important;
+}
+

@@ -1,0 +1,63 @@
+.dialogHeaderCloseButton {
+    margin-right: 25px;
+    margin-top: 15px;
+
+}
+
+.dialogCustomHeader {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px !important;
+}
+
+@media screen and (min-width: 575px) {
+    .SliderAreaItem {
+        height: calc(100vh - 130px) !important;
+        width: 100% !important;
+        position: relative !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .SliderAreaItem {
+        height: 450px !important;
+        width: 100% !important;
+        position: relative !important;
+    }
+}
+
+.imageViewerArea {}
+
+.imageViewerAreaInner {
+    width: 100vw !important;
+    height: 100vh !important;
+    overflow: hidden;
+}
+
+.SliderArea {
+    position: relative !important;
+}
+
+.sliderSettingArea {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 80px;
+}
+
+.sliderSettingSlider {
+    max-width: 700px;
+    height: 80px;
+    margin: 0px 30px;
+    background-color: black;
+}
+
+.mainSliderArea {
+    height: calc(100vh - 130px) !important;
+    width: 100%;
+    overflow: hidden;
+}

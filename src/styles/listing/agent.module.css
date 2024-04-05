@@ -1,0 +1,107 @@
+.agentSection {
+    padding-top: 50px !important;
+    background-color: #EFF3F5 !important;
+}
+
+@media screen and (min-width: 768px) {
+    .listingAgentHeading {
+        font-size: 35px !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Bold" !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+        padding-bottom: 15px !important;
+    }
+
+    .clientTestimonialsHeading {
+        font-size: 35px !important;
+        color: white !important;
+        font-family: "AvenirNextLTPro-Bold" !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+        padding-bottom: 15px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .listingAgentHeading {
+        font-size: 25px !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Bold" !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+        padding-bottom: 10px !important;
+    }
+
+    .clientTestimonialsHeading {
+        font-size: 25px !important;
+        color: white !important;
+        font-family: "AvenirNextLTPro-Bold" !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+        padding-bottom: 10px !important;
+    }
+
+}
+
+.listingAgentContent {
+    font-size: 16px !important;
+    color: black !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    text-align: center !important;
+}
+
+.listingAgentExplanation {
+    font-size: 16px !important;
+    color: black !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    text-align: left !important;
+    max-width: 700px !important;
+    font-weight: 500 !important;
+}
+
+.agentInfoSection {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 40px 0px !important;
+}
+
+.agentInfoSectionInner {
+    max-width: 600px !;
+    display: flex !important;
+    justify-content: center !important;
+    gap: 30px !important;
+    align-items: flex-start !important;
+    flex-wrap: wrap !important;
+}
+
+.agentInfoSectionInnerDescItem {
+    font-size: 16px !important;
+    color: black !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-weight: 500 !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 0px 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.clientTestimonialsArea {
+    padding: 40px 0px 60px 0px !important;
+    background-color: black !important;
+    margin-top: 40px !important;
+}
+
+.clientTestimonialsContent {
+    font-size: 16px !important;
+    color: white !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-weight: 400 !important;
+    padding: 40px 0px !important;
+}
+
+.clientTestimonialsArea .slick-arrow {
+    display: none !important;
+}

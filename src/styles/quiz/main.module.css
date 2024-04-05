@@ -1,0 +1,166 @@
+.templateSection {
+    min-height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 100px 0px !important;
+}
+
+.templateSectionInner {
+    max-width: 800px !important;
+    width: 100% !important;
+    min-height: 400px !important;
+    border: 2px solid rgba(0, 0, 0, .07) !important;
+    border-radius: 10px !important;
+    background-color: white !important;
+    position: relative !important;
+}
+
+.percentageArea {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.percentageBox {
+    width: 80px !important;
+    height: 80px !important;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, .49) !important;
+    z-index: 2 !important;
+    border-radius: 50% !important;
+    border: 3px solid black !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: -40px !important;
+    background-color: white !important;
+}
+
+.lineTop {
+    width: 100% !important;
+    height: 2px;
+    background: black !important;
+    position: absolute !important;
+    top: -2px !important;
+    z-index: 1 !important;
+    background: linear-gradient(89deg, rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 52%) 48%, rgb(0 0 0 / 0%) 100%) !important;
+}
+
+.lineBottom {
+    width: 100% !important;
+    height: 2px;
+    background: black !important;
+    position: absolute !important;
+    bottom: -2px !important;
+    z-index: 1 !important;
+    background: linear-gradient(89deg, rgb(0 0 0 / 0%) 0%, rgb(0 0 0 / 52%) 48%, rgb(0 0 0 / 0%) 100%) !important;
+}
+
+.quizSection {
+    padding: 20px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.quizSectionInner {
+    max-width: 500px !important;
+    width: 100% !important;
+    height: 100% !important;
+    transition: opacity 350ms cubic-bezier(0.755, 0.05, 0.855, 0.06) 0s !important;
+}
+
+.questionHeading {
+    font-size: 28px !important;
+    margin: 35px 0px !important;
+    text-align: center !important;
+    font-weight: 600 !important;
+}
+
+.multiChoicesArea {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 20px !important;
+}
+
+.buttonsArea {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0px 20px !important;
+}
+
+.choiceOption {
+    border: 1px solid #cecece !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 0px 10px !important;
+    border-radius: 6px !important;
+    background-color: white !important;
+    padding: 12px 5px !important;
+    cursor: pointer !important;
+}
+
+.choiceOption:hover {
+    background-color: #f7f7f7 !important;
+}
+
+.choiceOptionText {
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    color: black !important;
+}
+
+.buttonsArea {
+    margin-top: 70px !important;
+}
+
+.backButton {
+    box-shadow: none !important;
+    padding: 15px 40px !important;
+    color: black !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    border-radius: 15px !important;
+    text-transform: capitalize !important;
+}
+
+.nextButton {
+    box-shadow: none !important;
+    padding: 15px 44px !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    border-radius: 15px !important;
+    color: white !important;
+    background-color: transparent !important;
+    background-image: linear-gradient(90deg, gray, black) !important;
+    border: 5px solid lightgray !important;
+    text-transform: capitalize !important;
+}
+
+@media screen and (max-width: 575px) {
+    .nextButton {
+        padding: 15px 20px !important;
+    }
+}
+
+.textField {
+    background-color: #f9f9fb !important;
+    border: 1px solid #fbf9f9 !important;
+    border-radius: 8px !important;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .48) !important;
+    outline: none !important;
+    border: none !important;
+
+}
+
+.questionTextFields {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+}

@@ -1,0 +1,118 @@
+.paymentCalculator {
+    margin-top: 30px;
+}
+
+.paymentCalculatorHeading {
+    font-size: 26px !important;
+    font-weight: 500 !important;
+    color: black !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    margin-bottom: 10px !important;
+}
+
+@media screen and (min-width: 575px) {
+    .calculatorMainArea {
+        border: 1px solid #dadada !important;
+        padding: 40px 30px !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .calculatorMainArea {
+        border: 1px solid #dadada !important;
+        padding: 20px 10px !important;
+    }
+}
+.calculatorMainAmount {
+    text-align: center !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 24px !important;
+    color: #171717 !important;
+}
+
+.calculatorMainInterest {
+    text-align: center !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-size: 16px !important;
+    color: #171717 !important;
+}
+
+.calculatorBar {
+    height: 8px !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    gap: 0px 1.5px !important;
+    margin-top: 20px;
+}
+
+.calculatorBarInterest {
+    background-color: #1b39ef !important;
+    height: 8px !important;
+}
+
+.calculatorBarTax {
+    background-color: #59a1fa !important;
+    height: 8px !important;
+}
+
+.calculatorBarDues {
+    background-color: #b0c5e8 !important;
+    height: 8px !important;
+}
+
+.calculatorStatsArea {}
+
+.calculatorStatsAreaItem {
+    border-bottom: 1px solid #dadada;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 6px 0px !important;
+}
+
+.calculatorStatsAreaItem:last-child {
+    border-bottom: 1px solid transparent !important;
+}
+
+.calculatorStatsAreaItemLeft {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 0px 8px !important;
+    color: #171717 !important;
+}
+
+.calculatorStatsAreaItemLeftContent {
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-size: 16px !important;
+    color: #171717 !important;
+}
+
+.calculatorStatsAreaRight {
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 16px !important;
+    color: #171717 !important;
+}
+
+.fieldLabelCal {
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 16px !important;
+    color: #171717 !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 0px 10px !important;
+}
+
+.calculatorReadMore {
+    margin-top: 20px !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-size: 14px !important;
+    color: #171717 !important;
+}
+
+.calculatorReadMoreButton {
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 13px !important;
+    text-transform: capitalize !important;
+}

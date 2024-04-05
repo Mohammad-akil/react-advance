@@ -1,0 +1,180 @@
+.agentDetailArea {
+    height: auto;
+    padding-bottom: 80px !important;
+}
+
+.profileTopArea {
+    padding-top: 40px !important;
+    padding-bottom: 20px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .agentProfilePicArea {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .agentNameHeading {
+        text-align: center !important;
+    }
+
+    .agentNameSubHeading {
+        text-align: center !important;
+    }
+
+    .profileContent {
+        text-align: center !important;
+        white-space: break-spaces !important;
+    }
+
+    .workWithButton {
+        margin: 0px auto !important;
+    }
+
+    .agentProfileButtonArea {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+.agentProfilePicArea {
+    width: 100% !important;
+}
+
+.agentNameHeading {
+    font-size: 28px !important;
+    font-weight: 500 !important;
+    color: black !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+}
+
+.agentNameSubHeading {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    margin-bottom: 40px !important;
+    color: black !important;
+}
+
+.profileContent {
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-size: 16px !important;
+    color: #666666 !important;
+    white-space: break-spaces !important;
+}
+
+.workWithButton {
+    background-color: #0064e5 !important;
+    color: white !important;
+    text-transform: capitalize !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 16px !important;
+    margin-top: 15px !important;
+}
+
+.workWithButton:hover {
+    background-color: #0049a8 !important;
+    color: white !important;
+}
+
+.backButton {
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-size: 16px !important;
+    color: #666666 !important;
+    text-transform: capitalize !important;
+    margin-top: 15px !important;
+}
+
+.agentListArea {
+    height: calc(100vh - 150px) !important;
+    overflow: auto !important;
+}
+
+.agentListingHeadingArea {
+    padding: 50px 0px !important;
+}
+
+.agentListingHeading {
+    font-family: "AvenirNextLTPro-Bold" !important;
+    color: black !important;
+    font-size: 30px !important;
+    text-align: center !important;
+}
+
+.noResultArea {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    height: 50vh !important;
+}
+
+.noResultAreaInner {
+    max-width: 420px !important;
+}
+
+.noResultFoundHeading {
+    font-size: 18px !important;
+    white-space: nowrap;
+    font-weight: 600 !important;
+    color: black !important;
+    text-overflow: ellipsis;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    text-align: center !important;
+}
+
+.agentFormHeader {
+   position: relative !important;
+}
+.agentFormCloseIcon{
+    position: absolute !important;
+    top: 10px !important;
+    right: 10px !important;
+}
+
+.agentFormHeaderTitle {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    margin-top: 20px !important;
+    text-align: center !important;
+    margin-top: 3px;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important
+}
+
+.interestedInLabel{
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 14px !important; 
+    color:  black !important;
+}
+
+.requestInfoButton {
+    background-color: #0064e5 !important;
+    color: white !important;
+    text-transform: capitalize !important;
+    margin-top: 10px;
+}
+
+.contactFieldLabel {
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-size: 13px !important;
+    color: black !important;
+}
+
+.dashBox{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 10px !important;
+}
+
+.dashBoxInner{
+    width: 50px !important;
+    height: 3px !important;
+    background-color: black !important;
+}

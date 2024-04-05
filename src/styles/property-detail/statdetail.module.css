@@ -1,0 +1,129 @@
+.statSummaryContent {
+    font-size: 14px;
+    color: #666666;
+    padding: 15px 0px;
+    border-bottom: 1px solid lightgrey;
+    margin-bottom: 20px;
+}
+
+.statSummaryStats {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.statSummaryStatsItemHeading {
+    font-size: 14px;
+    color: #666666;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.statSummaryStatsItemValues {
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 14px;
+    color: #666666;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important
+}
+
+@media screen and (min-width: 768px) {
+    .statSummaryStatsItem {
+        width: 33.3333%;
+        border-bottom: 1px solid lightgrey;
+        padding: 8px 0px;
+
+    }
+}
+@media (min-width: 575px) and (max-width: 768px) {
+    .statSummaryStatsItem {
+        width: 50%;
+        border-bottom: 1px solid lightgrey;
+        padding: 8px 0px;
+
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    .statSummaryStatsItem {
+        width: 100%;
+        border-bottom: 1px solid lightgrey;
+        padding: 8px 0px;
+    }
+}
+
+@media screen and (min-width: 575px) {
+    .statDetailAreaPC {
+        display: block !important;
+    }
+
+    .statDetailAreaMB {
+        display: none !important;
+    }
+
+    .statDetailArea {
+        margin-top: 15px;
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+    .statSummaryArea {
+        padding: 0px 10px !important;
+    }
+
+    .statDetailAreaPC {
+        display: none !important;
+    }
+
+    .statDetailAreaMB {
+        display: block !important;
+    }
+}
+
+/*  State detail description area */
+
+
+.statDetailStatsItem {
+    width: 100% !important;
+    border-bottom: 1px solid #f2f2f0 !important;
+    padding: 8px 0px !important;
+}
+
+
+.statDetailStatsItemHeading {
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    color: #666666 !important;
+    white-space: nowrap !important;
+}
+
+.statDetailStatsItemValues {
+    font-size: 14px !important;
+    color: #666666 !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-weight: 500 !important;
+
+}
+
+.statDetailStatsItemLink {
+    text-decoration: underline !important;
+    cursor: pointer;
+    text-decoration-thickness: .5px;
+}
+
+.statDetailHeading {
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    color: #666666 !important;
+}

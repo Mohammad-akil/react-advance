@@ -1,0 +1,97 @@
+
+
+.greatSchoolsArea{
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+    gap: 60px !important;
+}
+
+@media screen and (max-width: 575px) {
+    .listingStatsHeadingPC {
+        display: block !important;
+        font-size: 20px !important;
+        font-weight: 500 !important;
+        margin-top: 10px !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        color: black !important;
+    }
+    .greatSchoolsArea{
+        gap: 20px !important;
+    }
+}
+
+@media screen and (min-width: 575px) {
+    .listingStatsHeadingPC {
+        display: block !important;
+        font-size: 26px !important;
+        font-weight: 500 !important;
+        margin-top: 10px !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        color: black !important;
+    }
+}
+
+.tableHeader{
+    background-color:#f4f4f4 !important;
+    border-bottom:2px solid #dadada !important;
+    border-top:1px solid #dadada !important;
+    color: black !important;
+}
+.tableHeaderRow{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    color:black !important;
+}
+
+.viewMoreButton{
+    color: #0064e5 !important;
+    text-transform: capitalize !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    margin-top: 5px !important;
+}
+.tableCellLink{
+    color: #0064e5 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+}
+.tableCellLink:hover{
+    text-decoration: underline !important;
+}
+.tableCell{
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    font-family: "AvenirNextLTPro-Regular" !important;   
+    text-transform: capitalize !important;
+    color: black !important;
+}
+.tableCell span{
+    font-weight: 500 !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+}
+.schoolDataDes{
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    font-family: "AvenirNextLTPro-Regular" !important;   
+    color: #6c6c6c !important;
+}
+.schoolDataDes a{
+    color: #0064e5 !important;
+}
+.schoolDataDes a:hover{
+    text-decoration: underline !important;
+}
+
+
+.theme1Heading {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+    color: #666666 !important;
+    margin-top: 40px !important;
+}

@@ -1,0 +1,46 @@
+.coverageArea {
+    padding: 54px 0px 20px 0px !important;
+    margin-top: 30px !important;
+}
+
+
+.coverageSubHeading {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    gap: 0px 10px !important;
+    font-size: 17px !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    color: black !important;
+}
+
+.coverageItemContent {
+    font-size: 16px !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    color: black !important;
+}
+
+@media screen and (min-width: 900px) {
+    .coverageHeading {
+        font-size: 28px !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        color: black !important;
+        font-weight: 600 !important;
+        margin-bottom: 20px !important;
+        margin-bottom: 12px !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .coverageHeading {
+        font-size: 24px !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        color: black !important;
+        font-weight: 600 !important;
+        margin-bottom: 20px !important;
+    }
+}
+.coverageBanner {
+    position: relative !important;
+    width: 80% !important;
+}

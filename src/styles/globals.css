@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: white;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    color-scheme: light;
+  }
+
+  body {
+    background-color: white;
+  }
+}
+
+body {
+  background-color: white !important;
+  /* width: 100% !important; */
+  /* overflow-x: hidden !important;
+  overflow-y: auto !important; */
+}
+
+/* html,
+body {
+  scroll-behavior: smooth !important;
+} */
+
+.slick-dots {
+  text-align: left !important;
+}
+
+
+@font-face {
+  font-family: "AvenirNextLTPro-Bold";
+  src: url(../assests/fonts/Avenir-Next-Font/AvenirNextLTPro-Bold.otf);
+}
+
+@font-face {
+  font-family: "AvenirNextLTPro-Demi";
+  src: url(../assests/fonts/Avenir-Next-Font/AvenirNextLTPro-Demi.otf);
+}
+
+@font-face {
+  font-family: "AvenirNextLTPro-Regular";
+  src: url(../assests/fonts/Avenir-Next-Font/AvenirNextLTPro-Regular.otf);
+}
+
+
+.react-tel-input .form-control {
+  width: 100% !important;
+  height: 39px !important;
+}
+
+.react-tel-input .country-list {
+  width: 270px !important;
+}
+
+
+@media screen and (max-width: 575px) {
+  .gm-style-iw {
+    max-width: 320px !important;
+  }
+}
+
+
+.react-tel-input input {
+  color: #666666 !important;
+  /* Set the desired text color */
+}
+
+.slick-dots {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.gm-iv-small-container {
+  display: none !important;
+}
+
+.gm-style-iw button {
+  display: none !important;
+}
+
+.gm-style-iw {
+  padding: 0px !important;
+}
+.gm-style-iw-d {
+ margin-right: -18px !important;
+}
+.gm-style-iw > div {
+  padding: 0px !important;
+}
+.gm-style-iw > div > div {
+  padding-right: 0 !important;
+}
+

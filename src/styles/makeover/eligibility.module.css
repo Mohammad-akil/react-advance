@@ -1,0 +1,50 @@
+.eligibilityArea {
+    padding: 40px 0px !important;
+}
+
+@media screen and (min-width: 900px) {
+    .eligibilityHeading {
+        font-size: 28px !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        color: black !important;
+        font-weight: 600 !important;
+        margin-bottom: 20px !important;
+        margin-bottom: 40px !important;
+        text-align: center !important;
+    }
+    .eligibilityItem {
+        border-right: 1px solid black !important;
+        padding: 0px 40px !important;
+        height: 100% !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .eligibilityHeading {
+        font-size: 24px !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        color: black !important;
+        font-weight: 600 !important;
+        margin-bottom: 20px !important;
+        text-align: center !important;
+        margin-bottom: 15px !important;
+    }
+    .eligibilityItem {
+        padding: 0px 40px !important;
+        height: 100% !important;
+    }
+}
+
+
+
+.eligibilityItemL {
+    padding: 0px 40px !important;
+    height: 100% !important;
+}
+
+.eligibilityItemContent {
+    font-size: 16px !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    color: black !important;
+    text-align: center !important;
+}

@@ -1,0 +1,281 @@
+.photoSection {
+    margin-bottom: 120px !important;
+    position: relative !important;
+}
+
+@media screen and (max-width:768px) {
+    .photoSection {
+        margin-bottom: 40px !important;
+        position: relative !important;
+    }
+}
+
+.cut {
+    width: 200%;
+    height: 250px;
+    background-color: #fff;
+    transform: skew(1deg, 4deg);
+    position: absolute;
+    top: 120px;
+    left: -10px;
+    z-index: 2;
+    box-shadow: 0px 11px 13px #0000000f;
+}
+
+
+.photoSection {
+    overflow: hidden;
+}
+
+@media screen and (min-width:992px) {
+    .titleWrap {
+        float: left !important;
+        width: 30% !important;
+    }
+
+    .galleryPreviewWrapper {
+        width: 70%;
+        float: right;
+    }
+}
+
+.photoSection .main-gallery-cta {
+    display: flex;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:991px) {
+    .photoSection .main-gallery-cta {
+        position: absolute;
+        right: 40px;
+        top: 40px;
+        margin-top: 0;
+    }
+}
+
+.photoSection .main-gallery-cta svg {
+    margin-right: 10px;
+}
+
+.photoSection .main-gallery-cta svg path {
+    stroke: black;
+}
+
+.photoSection .box-bg-color {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    filter: opacity(0.2);
+    z-index: 1;
+}
+
+.photoGridWrap {
+    z-index: 3 !important;
+    position: relative !important;
+}
+
+.bgDotsTop {
+    background-image: radial-gradient(currentColor 1px, rgba(0, 0, 0, 0) 1px) !important;
+    background-size: 10px 10px !important;
+    filter: opacity(50%) !important;
+    color: black !important;
+    width: 170px !important;
+    height: 260px !important;
+    position: absolute !important;
+    right: -40px !important;
+    top: 130px !important;
+    z-index: 0 !important;
+}
+
+.galleryPreviewImage {
+    height: 300px !important;
+    float: left !important;
+    width: 50% !important;
+    cursor: pointer !important;
+}
+
+@media screen and (max-width:991px) {
+    .galleryPreviewImage {
+        height: 180px !important;
+    }
+}
+
+.photoSection .bgImage {
+    height: 100% !important;
+    width: 100% !important;
+    background-color: #f6f6f6 !important;
+    background-size: cover !important;
+    position: relative !important;
+}
+
+.photoSection .bgImage:after {
+    content: "" !important;
+    width: 100% !important;
+    height: 100% !important;
+    border: 1px solid black !important;
+    left: -7px !important;
+    top: -7px !important;
+    position: absolute !important;
+    z-index: -6 !important;
+}
+
+.galleryPreviewImage0 {
+    width: 60% !important;
+}
+
+.galleryPreviewImage3 {
+    width: 60% !important;
+}
+
+.galleryPreviewImage1 {
+    width: 40% !important;
+}
+
+.galleryPreviewImage2 {
+    width: 40% !important;
+}
+
+.photoSection .extra-image-cta {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}
+
+.galleryCtaInner {
+    position: absolute !important;
+    font-size: 18px !important;
+    text-transform: uppercase !important;
+    color: #fff !important;
+    background: #3b43448f !important;
+    left: 0 !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    margin: auto !important;
+    opacity: 0 !important;
+    height: 95% !important;
+    width: 95% !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    display: flex !important;
+    -moz-transition: opacity 0.25s ease-in-out !important;
+    -o-transition: opacity 0.25s ease-in-out !important;
+    -webkit-transition: opacity 0.25s ease-in-out !important;
+    transition: opacity 0.25s ease-in-out !important;
+}
+
+@media screen and (max-width:991px) {
+    .galleryCtaInner {
+        left: 8px !important;
+        width: 77% !important;
+        height: 93% !important;
+    }
+}
+
+
+
+.bgDotsBottom {
+    background-image: radial-gradient(currentColor 1px, rgba(0, 0, 0, 0) 1px) !important;
+    background-size: 10px 10px !important;
+    filter: opacity(50%) !important;
+    color: black !important;
+    width: 170px !important;
+    height: 260px !important;
+    position: absolute !important;
+    left: 230px !important;
+    bottom: 220px !important;
+    z-index: -2 !important;
+}
+
+@media screen and (max-width:991px) {
+    .bgDotsBottom {
+        left: -40px !important;
+        bottom: -70px !important;
+    }
+}
+
+.sectionTitle {
+    font-size: 65px !important;
+    color: black !important;
+    filter: brightness(0.5) !important;
+    line-height: 110% !important;
+    margin: 0 !important;
+    font-family: "Playfair Display", serif !important;
+    font-weight: 400 !important;
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .sectionTitle {
+        font-size: 50px !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .sectionTitle {
+        font-size: 38px !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+.arrowMaskWrap {
+    width: 110px !important;
+    height: 22px !important;
+    position: absolute !important;
+    top: 30px !important;
+    z-index: 0 !important;
+}
+
+.arrowMaskWrap .mask {
+    background-color: #fff !important;
+    position: absolute !important;
+    z-index: 2 !important;
+    top: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    opacity: 1 !important;
+}
+
+.arrowMaskWrap svg {
+    position: absolute !important;
+    z-index: 1 !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100px !important;
+    height: auto !important;
+}
+
+.arrowMaskWrap {
+    transition: clip-path 0.6s cubic-bezier(0.785, 0.135, 0.15, 0.86) ;
+}
+
+@media screen and (max-width:991px) {
+    .arrowMaskWrap {
+        display: none;
+    }
+}
+
+.arrowMaskRight {
+    left: 210px !important;
+    clip-path: inset(0px 100% 0px 0) !important;
+    top: 37px !important;
+}
+
+.arrowMaskRightAffix {
+    clip-path: inset(0px 0px 0px 0%) !important;
+    position: absolute !important;
+    top: 37px !important;
+    left: 210px !important;
+}
+
+.gridViewButton {
+    font-size: 17px !important;
+    text-transform: capitalize !important;
+    color: #555555 !important;
+    margin-top: 30px !important;
+}

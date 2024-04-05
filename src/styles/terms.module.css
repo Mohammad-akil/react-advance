@@ -1,0 +1,54 @@
+.termsOfServicePage{
+    min-height: 100vh !important;
+    padding: 50px 0px !important;
+}
+
+.termsOfServiceHeading{
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 32px !important;
+    font-weight: 500 !important;
+    margin-bottom: 30px !important;
+    color: black !important;
+}
+.termsOfServiceSubHeading{
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 26px !important;
+    font-weight: 400 !important;
+    color: black !important;
+    margin-bottom: 30px !important;
+}
+.termsOfServiceSubHeading1{
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 22px !important;
+    font-weight: 400 !important;
+    margin-bottom: 30px !important; 
+    color: black !important;
+}
+.termsOfServiceContent{
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-size: 17px !important;
+    font-weight: 500 !important;
+    margin-bottom: 30px !important;
+    color: black !important;
+}
+.termsOfServiceContent span{
+    font-weight: 600 !important; 
+    color: black !important;
+}
+.termsOfServiceContent a{
+    color: black !important;
+}
+.termsOfServiceContent a:hover{
+   text-decoration: underline !important;
+}
+.termsOfServiceListItem{
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-size: 17px !important;
+    font-weight: 500 !important;
+    color: black !important;
+    margin-bottom: 10px !important;
+}
+.termsOfServiceListItem span{
+    font-weight: 600 !important; 
+    color: black !important;
+}

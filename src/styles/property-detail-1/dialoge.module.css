@@ -1,0 +1,83 @@
+.dialogHeader {
+    height: 80px;
+    border-bottom: 1px solid lightgrey;
+    z-index: 99999999999999999 !important;
+}
+
+@media screen and (min-width: 575px) {
+    .dialogHeaderCloseButton {
+        position: absolute !important;
+        top: 15px !important;
+        right: 15px !important;
+    }
+
+    .dialogActivePhotosButton {
+        background-color: black !important;
+        color: white !important;
+        font-weight: 600 !important;
+        text-transform: capitalize !important;
+        white-space: nowrap !important;
+    }
+
+    .dialogPhotosButton {
+        font-weight: 600 !important;
+        text-transform: capitalize !important;
+        white-space: nowrap !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .dialogHeaderCloseButton {
+        position: relative !important;
+    }
+
+    .dialogHeader {
+        display: flex !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+        gap: 0px 10px !important;
+    }
+
+    .dialogActivePhotosButton {
+        background-color: black !important;
+        color: white !important;
+        font-weight: 600 !important;
+        text-transform: capitalize !important;
+        white-space: nowrap !important;
+        font-size: 13px !important;
+        padding: 5px 15px !important;
+    }
+
+    .dialogPhotosButton {
+        font-weight: 600 !important;
+        text-transform: capitalize !important;
+        white-space: nowrap !important;
+        font-size: 13px !important;
+        padding: 5px 15px !important;
+    }
+
+    .dialogHeaderCloseButtonIcon {
+        font-size: 25px !important;
+    }
+}
+
+
+@media screen and (min-width: 380px) {
+    .dialogHeaderButtons {
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .dialogHeaderButtons {
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+}

@@ -1,0 +1,51 @@
+.quickLoginArea {
+    height: calc(100vh - 135px) !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    
+}
+@media screen and (min-width: 575px) {
+    .quickLoginInnerBox {
+        width: 500px !important;
+        background-color: #f4f4f4 !important;
+        height: 350px !important;
+        border-radius: 8px !important;
+        border: 1px solid lightgray !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .quickLoginInnerBox {
+        width: 100% !important;
+        background-color: #f4f4f4 !important;
+        height: 350px !important;
+        border-radius: 8px !important;
+        border: 1px solid lightgray !important;
+    }
+}
+
+.quickLoginInnerBoxIconArea {
+    display: flex !important;
+    justify-content: center;
+    margin: 45px 0px 20px 0px !important;
+}
+
+.quickLoginInnerBoxIcon {
+    font-size: 120px !important;
+    color: grey !important;
+}
+
+.quickLoginText {
+    font-size: 1.4rem !important;
+    color: black !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    text-align: center !important;
+}
+
+.quickLoginLoader {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 3px !important;
+}

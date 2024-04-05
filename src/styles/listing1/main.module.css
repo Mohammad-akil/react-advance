@@ -1,0 +1,26 @@
+.listingTemplateArea {
+    min-height: 100vh !important;
+}
+
+.posR {
+    position: relative !important;
+}
+
+.propertyContentWrap {
+    padding-top: 50px !important;
+}
+
+@media screen and (max-width:991px) {
+    .propertyContentWrap {
+        overflow-x: hidden !important;
+    }
+}
+
+.dInlineBlock {
+    display: inline-block !important;
+}
+
+.fullWidth {
+    width: 100% !important;
+    display: inline-block !important;
+}

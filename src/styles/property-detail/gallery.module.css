@@ -1,0 +1,252 @@
+.galleryAreaPc {
+    position: relative;
+    background-color: #434343 !important;
+}
+
+.galleryAreaMB {
+    position: relative;
+    width: 100% !important;
+    overflow: hidden !important;
+}
+
+
+
+@media screen and (min-width: 981px) {
+    .galleryButtons {
+        position: absolute !important;
+        bottom: 30px !important;
+        left: 50% !important;
+        transform: translate(00%) !important;
+        display: flex !important;
+        justify-content: flex-start !important;
+        gap: 15px !important;
+        z-index: 2 !important;
+    }
+
+    .galleryViewAllButton {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 981px) {
+    .galleryButtons {
+        position: absolute !important;
+        bottom: 10px !important;
+        left: 12% !important;
+        display: flex !important;
+        justify-content: flex-start !important;
+        gap: 15px !important;
+        z-index: 2 !important;
+    }
+
+    .galleryViewAllButton {
+        display: flex !important;
+        position: absolute !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        bottom: 10px !important;
+        font-size: 14px !important;
+        text-transform: capitalize !important;
+        background-color: #4c516d !important;
+        color: white !important;
+        font-weight: 600 !important;
+        font-family: Arial,Helvetica,sans-serif !important;
+        white-space: nowrap !important;
+        z-index: 3 !important;
+        width: 170px !important;
+    }
+}
+
+.galleryButtons {
+    display: none !important;
+}
+
+.galleryFullSizeButton {
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+    background-color: #4c516d !important;
+    color: white !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+  font-weight: 600 !important;
+    white-space: nowrap !important;
+}
+
+.galleryFullSizeButton:hover {
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+    background-color: #383a47 !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-weight: 600 !important;
+    color: white !important;
+}
+
+.galleryVirtualTourButton {
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+    background-color: #2a2c34 !important;
+    color: white !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-weight: 600 !important;
+    white-space: nowrap !important;
+}
+
+.galleryVirtualTourButton:hover {
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+    background-color: rgb(33, 34, 37) !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-weight: 600 !important;
+    color: white !important;
+}
+
+@media screen and (min-width: 981px) {
+    .galleryAreaPc {
+        display: block !important;
+    }
+
+    .galleryAreaMB {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 981px) {
+    .galleryAreaPc {
+        display: none !important;
+    }
+
+    .galleryAreaMB {
+        display: block !important;
+    }
+
+
+}
+
+@media screen and (max-width: 575px) {}
+
+.galleryAreaPc .slick-dots {
+    display: none !important;
+}
+
+.photoViewHeader {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 50px;
+}
+
+.photoViewHeaderText {
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-weight: 600 !important;
+    color: #777 !important;
+    font-size: 16px !important;
+}
+
+.photoViewHeaderButton {
+    min-width: 26px !important;
+    padding: 3px 5px !important;
+    color: #777 !important;
+}
+
+.galleryGridView {
+    height: calc(100vh - 170px) !important;
+    overflow: auto !important;
+
+}
+
+.galleryGridView::-webkit-scrollbar-thumb {
+    background: #4c516d !important
+}
+
+.galleryGridView::-webkit-scrollbar-track {
+    background: #ccc !important
+}
+
+.galleryGridView::-webkit-scrollbar {
+    width: 6px !important
+}
+
+.galleryGridViewItem {
+    position: relative !important;
+    width: 100%;
+}
+
+.statsBarMBView {
+    padding: 8px 16px;
+    border: 1px solid lightgray !important;
+    height: 70px !important;
+}
+
+.statsBarHeadingMB {
+    font-size: 16px !important;
+    width: 100%;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-weight: 600 !important;
+    color: #666666 !important;
+}
+
+.statsBarCityZipMB {
+    font-size: 14px !important;
+    color: #666666 !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-weight: 600 !important;
+}
+
+.statsBarPriceMB {
+    font-size: 16px !important;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-weight: 600 !important;
+    color: #666666 !important;
+}
+
+.galleryBottomButtonsArea {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 50px !important;
+    gap: 0px 15px !important;
+    padding: 0px 20px;
+}
+
+.galleryBottomButtonsRequest {
+    background-color: #4c516d !important;
+    color: white !important;
+    text-transform: capitalize !important;
+}
+
+.galleryBottomButtonsTour {
+    background-color: #000 !important;
+    color: white !important;
+    text-transform: capitalize !important;
+}
+
+.galleryAreaMBImageBox {
+    position: relative !important;
+}
+
+.simpleGalleryView {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+
+}
+
+.simpleGalleryViewRight {
+    display: flex !important;
+    justify-content: flex-start !important;
+    flex-direction: column !important;
+    gap: 0px !important;
+}
+
+.simpleGalleryViewRightTop {
+    display: flex !important;
+    justify-content: flex-start !important;
+    gap: 0px !important;
+}

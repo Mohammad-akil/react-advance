@@ -1,0 +1,91 @@
+.propertyInfoArea {
+    background-color: white !important;
+    padding: 60px 0px 50px 0px !important;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .propertyInfoHeading {
+        font-size: 35px !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Bold" !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+        margin-bottom: 15px !important;
+    }
+
+    .propertyInfoContent {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Regular" !important;
+        text-align: center !important;
+        -webkit-text-size-adjust: 100% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .propertyInfoHeading {
+        font-size: 25px !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Bold" !important;
+        font-weight: 600 !important;
+        text-align: left !important;
+        margin-bottom: 10px !important;
+    }
+
+    .propertyInfoContent {
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Regular" !important;
+        text-align: left !important;
+    }
+}
+
+.propertyInfoStatsArea {
+    padding: 50px 0px !important;
+}
+
+.propertyInfoStatsItem {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.propertyInfoStatsHeading {
+    font-size: 25px !important;
+    color: black !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    text-align: center !important;
+}
+
+.propertyInfoStatsHeading1 {
+    font-size: 20px !important;
+    color: black !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    text-align: center !important;
+}
+
+.propertyInfoStatsContent {
+    font-size: 20px !important;
+    color: black !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    text-align: center !important;
+}
+
+.propertyFeatureItem {
+    font-size: 18px !important;
+    color: black !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    text-align: left !important;
+}
+
+.propertyFeatureItemContent {
+    font-size: 16px !important;
+    color: black !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    text-align: left !important;
+}

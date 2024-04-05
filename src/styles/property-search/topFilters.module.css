@@ -1,0 +1,431 @@
+.filterArea {
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, .11), 0 5px 15px 0 rgba(0, 0, 0, .08) !important;
+}
+
+@media screen and (min-width: 900px) {
+    .filterHeaderLG {
+        display: block !important;
+    }
+
+    .filterHeaderSM {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .filterHeaderLG {
+        display: none !important;
+    }
+
+    .filterHeaderSM {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 5px 10px !important;
+        padding: 8px 20px !important;
+    }
+}
+
+.FiltersSmBtn {
+    color: white !important;
+    background-color: #4c516d !important;
+    box-shadow: none !important;
+}
+
+.FiltersSmBtn:hover {
+    background-color: #333750 !important;
+}
+
+.SortSmBtn {
+    background-color: #f2f2f0 !important;
+    color: #666666 !important;
+    box-shadow: none !important;
+}
+
+.SortSmBtn:hover {
+    background-color: #eeeeec !important;
+}
+
+.filterAreaTop {
+    height: 50px !important;
+    border-bottom: 1px solid #d9d9d9 !important;
+    padding-left: 17px;
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.filterAreaTopLeft {
+    flex: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 0px 5px !important;
+}
+
+
+.filterAreaTopRight {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+}
+
+
+
+.filterSelectBox {
+    min-width: 140px !important;
+    padding: 5px 15px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    height: 48px !important;
+    position: relative !important;
+}
+
+.filterSelectBoxActive {
+    min-width: 140px !important;
+    padding: 5px 15px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    height: 48px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4) !important;
+    z-index: 99 !important;
+    position: relative !important;
+}
+
+.filterSelectBox1 {
+    min-width: 221px !important;
+    padding: 5px 15px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    height: 48px !important;
+    position: relative !important;
+}
+
+.filterSelectBoxActive1 {
+    min-width: 221px !important;
+    padding: 5px 15px !important;
+    cursor: pointer !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    height: 48px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4) !important;
+    z-index: 99 !important;
+    position: relative !important;
+}
+
+.filterSelectBoxText {
+    font-family: "AvenirNextLTPro-Demi" !important;
+    color: #666666 !important;
+}
+
+.selectBoxArea {
+    min-width: 370px !important;
+    background-color: white !important;
+    padding: 6px !important;
+}
+
+.selectBoxArea1 {
+    min-width: 220px !important;
+    background-color: white !important;
+    padding: 0px !important;
+}
+
+.selectBoxArea2 {
+    min-width: 50vw !important;
+    background-color: white !important;
+    padding: 15px !important;
+}
+
+.rangeAboveText {
+    font-size: 14px !important;
+    color: #666666 !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    text-align: center !important;
+    padding: 5px !important;
+}
+
+.shortCutRangeSelection {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 0px 10px !important;
+}
+
+.shortCutRangeSelectionItem {
+    height: 40px !important;
+    padding: 5px !important;
+    cursor: pointer !important;
+    border: 1px solid lightgray !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.shortCutRangeSelectionItemActive {
+    height: 40px !important;
+    padding: 5px !important;
+    cursor: pointer !important;
+    border: 1px solid lightgray !important;
+    display: flex !important;
+    align-items: center !important;
+    background-color: #1a1a1a !important;
+    color: white !important;
+}
+
+.shortCutRangeSelectionItemText {
+    font-size: 14px !important;
+    color: #666666 !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    padding: 0px 5.6px !important;
+}
+
+.shortCutRangeSelectionItemTextActive {
+    font-size: 14px !important;
+    color: white !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    padding: 0px 5.6px !important;
+}
+
+.moreOptionsItemHeading {
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 18px !important;
+    color: #666666 !important;
+}
+
+.moreOptionsItemText {
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 14px !important;
+    color: #666666 !important;
+}
+
+.propertyTypeAreaItems {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 0px 50px !important;
+}
+
+/* bottom  area css */
+
+.filterAreaBottom {
+    height: 50px !important;
+    border-bottom: 1px solid #d9d9d9 !important;
+    display: flex !important;
+    flex-direction: row !important;
+
+}
+
+.filterAreaBottomLeft {}
+
+.filterAreaBottomCenter {
+    position: relative !important;
+    flex: 1 !important;
+    background-color: white !important;
+    padding: 13px 10px !important;
+    padding-right: 100px !important;
+    overflow: hidden;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    flex-wrap: wrap !important;
+    gap: 16px 10px !important;
+    z-index: 999 !important;
+}
+
+.filterShowMoreBtn {
+    position: absolute !important;
+    top: 10px !important;
+    right: 12px !important;
+    color: #666666 !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    text-transform: capitalize !important;
+    font-size: 13px !important;
+}
+
+
+.customChip {
+    background-color: #4c516d !important;
+    color: white !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+}
+
+.customChipSimple {
+    font-family: "AvenirNextLTPro-Demi" !important;
+}
+
+.customChipArea {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 10px !important;
+}
+
+.filterAreaBottomRight {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+}
+
+.bottomTabsArea {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+
+}
+
+.bottomTabsItem {
+    height: 50px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0px 5px !important;
+    padding: 0px 20px !important;
+    cursor: pointer !important;
+    border-bottom: 2px solid white !important;
+}
+
+.bottomTabsItem:hover {
+    border-bottom: 2px solid black !important;
+    background-color: #f2f2f0 !important;
+}
+
+.bottomTabsItemActive {
+    height: 50px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0px 5px !important;
+    padding: 0px 20px !important;
+    cursor: pointer !important;
+    border-bottom: 2px solid black !important;
+    background-color: #f2f2f0 !important;
+}
+
+.bottomTabsText {
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 14px !important;
+    color: #666666 !important;
+}
+
+.filterAreaBottomSearchButton {
+    color: white !important;
+    background-color: #4c516d !important;
+    text-transform: capitalize !important;
+}
+
+.filterAreaBottomRightItem {
+    padding: 0px 20px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 50px !important;
+}
+
+.smFilterTopTabs {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    flex-direction: row !important;
+}
+
+.smFilterTopTabsItem {
+    flex: 1 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0px 7px !important;
+    padding: 15px 7px !important;
+    cursor: pointer !important;
+    border: 1px solid lightgrey !important;
+    z-index: 999 !important;
+}
+
+.smFilterTopTabsItem:hover {
+    background-color: #f2f2f0 !important;
+}
+
+.saveSearchHeader {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 10px 15px !important;
+    border-bottom: 1px solid lightgray !important;
+    background-color: white !important;
+
+}
+
+.saveSearchDesc {
+    background-color: white;
+    padding: 20px !important;
+}
+
+.saveSearchHeading {
+    font-family: "AvenirNextLTPro-Demi" !important;
+    color: #333333 !important;
+    font-size: 20px !important;
+}
+
+.saveSearchDescContent {
+    font-family: "AvenirNextLTPro-Regular" !important;
+    color: #333333 !important;
+    font-size: 14px !important;
+    text-align: center !important;
+}
+
+.searchFieldsArea {
+    background-color: #fafafa !important;
+    padding: 40px 20px 60px 20px !important;
+    border-bottom: 1px solid #e5e5e5 !important;
+    border-top: 1px solid #e5e5e5 !important;
+}
+
+.searchButtonArea {
+    padding: 20px !important;
+    background-color: white !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 20px !important;
+}
+
+.searchSubmitButton {
+    background-color: #4c516d !important;
+    color: white !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+}
+
+.searchCloseButton {
+    background-color: #f1f1f1 !important;
+    color: black !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-size: 14px !important;
+    text-transform: capitalize !important;
+}
+
+
+.groupIconArea {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 0px 7px !important;
+    padding: 8px !important;
+    font-weight: 600 !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+}
+.groupIconArea svg{
+    font-size: 20px !important;
+}
+
+.groupItem {
+    color: black !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    font-size: 14px !important;
+}

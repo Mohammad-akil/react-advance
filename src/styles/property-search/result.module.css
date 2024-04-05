@@ -1,0 +1,392 @@
+.propertyResultsPage {
+    margin-bottom: 30px;
+
+}
+
+.propertyResultsPageHeading {
+    font-size: 22px !important;
+    /* white-space: nowrap; */
+    font-weight: 600 !important;
+    color: #666666 !important;
+    text-overflow: ellipsis;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: "AvenirNextLTPro-Demi" !important;
+}
+
+.noResultFoundHeadingMain {
+    font-size: 22px !important;
+    white-space: nowrap;
+    font-weight: 600 !important;
+    color: #666666 !important;
+    text-overflow: ellipsis;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    text-align: center !important;
+}
+
+.noResultFoundHeading {
+    font-size: 18px !important;
+    white-space: nowrap;
+    font-weight: 600 !important;
+    color: black !important;
+    text-overflow: ellipsis;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    text-align: center !important;
+}
+
+.noResultFoundContent {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #666666 !important;
+    text-overflow: ellipsis;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    text-align: center !important;
+}
+
+/* .propertyResultsArea {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 15px 0px;
+} */
+
+.propertyResultsAreaItem {
+    border: 1px solid lightgrey;
+}
+
+.propertyResultsAreaItem:hover {
+    border: 1px solid grey;
+}
+
+
+
+
+
+/* .propertyResultsItemOffice {
+    font-size: 12px !important;
+    color: #666666 !important;
+    line-height: 13px;
+    font-family: "AvenirNextLTPro-Regular" !important;
+} */
+
+.propertyResultsItemSubTitle span{
+    text-transform: capitalize !important;
+}
+
+@media screen and (min-width: 991px) {
+    .propertyResultsItemStatsValue {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        color: #666666 !important;
+        text-align: center;
+    }
+    .propertyResultsItemSubTitle {
+        font-size: 15px !important;
+        color: #666666 !important;
+        line-height: 13px;
+        font-family: "AvenirNextLTPro-Regular" !important;
+    }
+
+    .propertyResultsItemTitle {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        color: #666666 !important;
+        padding: 10px !important;
+        padding-bottom: 0px !important;
+        width: 100% !important;
+        white-space: nowrap !important;
+        text-overflow: ellipsis !important;
+        overflow: hidden !important;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 991px) {
+    .propertyResultsItemStatsValue {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        color: #666666 !important;
+        text-align: center;
+    }
+
+    .propertyResultsItemSubTitle {
+        font-size: 14px !important;
+        color: #666666 !important;
+        line-height: 14px;
+        font-family: "AvenirNextLTPro-Regular" !important;
+    }
+
+    .propertyResultsItemTitle {
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        color: #666666 !important;
+        padding: 10px !important;
+        padding-bottom: 0px !important;
+        width: 100% !important;
+        white-space: nowrap !important;
+        text-overflow: ellipsis !important;
+        overflow: hidden !important;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .propertyResultsItemTitle {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        color: #666666 !important;
+        padding: 10px !important;
+        padding-bottom: 5px !important;
+        width: 100% !important;
+        white-space: nowrap !important;
+        text-overflow: ellipsis !important;
+        overflow: hidden !important;
+    }
+
+    .propertyResultsItemStatsValue {
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        color: #666666 !important;
+        text-align: center;
+    }
+
+    .propertyResultsItemSubTitle {
+        font-size: 13px !important;
+        color: #666666 !important;
+        line-height: 13px;
+        font-family: "AvenirNextLTPro-Regular" !important;
+    }
+}
+
+
+
+.propertyResultsTopImage {
+    position: relative !important;
+    cursor: pointer !important;
+
+}
+
+.propertyResultsMedia {
+    box-shadow: 0px -50px 51px -25px rgba(0, 0, 0, 0.85) inset;
+    z-index: 1 !important;
+    height: 150px !important;
+    position: absolute !important;
+    bottom: 0px !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100vw !important;
+}
+
+.propertyResultsMedia img {
+    position: relative;
+    z-index: -2 !important;
+}
+
+.propertyResultsItemPrice {
+    position: absolute !important;
+    bottom: 3px !important;
+    left: 7px !important;
+    font-size: 17px !important;
+    font-weight: 600 !important;
+    color: white !important;
+    z-index: 2 !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+}
+
+.propertyResultsItemPhotos {
+    position: absolute !important;
+    bottom: 3px !important;
+    right: 7px !important;
+}
+
+.propertyResultsItemPhotosCount {
+    font-size: 17px !important;
+    font-weight: 400 !important;
+    color: white !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    z-index: 2 !important;
+
+}
+
+.propertyResultsItemFavoriteIcon {
+    position: absolute !important;
+    top: 3px !important;
+    right: 7px !important;
+    color: white !important;
+    cursor: pointer !important;
+    transition: color .3s ease-in-out, transform .5s ease;
+}
+
+.propertyResultsItemFavoriteIcon:hover {
+    font-size: 25px;
+    color: rgb(153, 148, 148) !important;
+    text-shadow: 0 0 12px rgba(0, 0, 0, .7), 0 0 9px rgba(0, 0, 0, .5);
+    transition: color .3s ease-in-out, transform .5s ease;
+}
+
+
+
+.backText {
+    font-size: 14px !important;
+    white-space: nowrap;
+    font-weight: 500 !important;
+    color: #666666 !important;
+}
+
+.brokerNameGMLS {
+    color: #99a9af !important;
+    padding: 10px !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+    gap: 0px 10px !important;
+}
+
+.brokerNameGMLS span {
+    width: calc(100% - 40px) !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+}
+
+.disclaimerText {
+    color: #666666 !important;
+}
+
+.disclaimerText a {
+    color: #1974e8 !important;
+}
+
+.propertyResultsItemHeader {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    padding: 10px !important;
+    padding-top: 0px !important;
+}
+
+.noResultArea {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    height: 80vh !important;
+}
+
+.noResultAreaInner {
+    max-width: 420px !important;
+}
+
+.notifyButton {
+    background-color: #4c516d !important;
+    color: white !important;
+    text-transform: capitalize !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+}
+
+.resultItemAreaWithMap {
+    height: calc(100vh - 178px) !important;
+    width: 100% !important;
+    overflow: auto !important;
+}
+
+@media screen and (min-width: 900px) {
+    .resultItemAreaWithMapSM {
+        height: calc(100vh - 80px) !important;
+        width: 100% !important;
+        overflow: auto !important;
+    }
+}
+@media screen and (max-width: 900px) {
+    .resultItemAreaWithMapSM {
+        height: auto !important;
+        width: 100% !important;
+    }
+}
+
+
+
+/* .markerStyle {} */
+
+.infoWindowAreaRightHeading {
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 20px !important;
+}
+
+/* .infoWindowAreaRightPrice {} */
+
+/* .infoWindowAreaRightStats {} */
+
+
+.mapViewButtonSM {
+    position: fixed !important;
+    left: 50% !important;
+    transform: translate(-50%);
+    bottom: 65px !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .4) !important;
+    background-color: white !important;
+    z-index: 3 !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-size: 16px !important;
+    padding: 5px 10px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 0px 10px !important;
+    border: 1px solid #dadada !important;
+    border-radius: 1px !important;
+    cursor: pointer !important;
+    color: black !important;
+}
+
+@media screen and (min-width: 900px) {
+    .mapViewButtonSM {
+        display: none !important;
+    }
+
+    .resultsDemoTitle {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .mapViewButtonSM {
+        display: flex !important;
+    }
+
+    .resultsDemoTitle {
+        display: block !important;
+    }
+
+    .mapViewAreaFixed {
+        position: fixed !important;
+        top: 65px !important;
+        height: calc(100vh - 65px) !important;
+        width: 100% !important;
+        left: 0px !important;
+        right: 0px !important;
+        bottom: 0px !important;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+
+    .mapViewAreaFixed {
+        height: calc(100vh - 178px) !important;
+        width: 100% !important;
+        overflow: hidden !important;
+    }
+}
+
+.resultsDemoTitle {
+    margin-top: -15px !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+}

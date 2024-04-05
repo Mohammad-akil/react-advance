@@ -1,0 +1,171 @@
+.section {
+    margin-bottom: 80px !important;
+    position: relative !important;
+    display: block !important;
+    width: 100% !important;
+    margin-top: 2rem !important;
+    overflow: hidden !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.cut {
+    width: 200% !important;
+    height: 250px !important;
+    background-color: #fff !important;
+    transform: skew(1deg, 4deg) !important;
+    position: absolute;
+    top: 80px;
+    left: -180px;
+    z-index: -1;
+    box-shadow: 0px 11px 13px #0000000f;
+}
+
+
+.sectionTitle {
+    font-size: 65px !important;
+    color: black !important;
+    filter: brightness(0.5) !important;
+    line-height: 110% !important;
+    font-family: "Playfair Display", serif !important;
+    font-weight: 400 !important;
+    margin-bottom: 40px !important;
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    .sectionTitle {
+        font-size: 50px !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .sectionTitle {
+        font-size: 38px !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .cardWrapper {
+        padding-bottom: 0 !important;
+    }
+
+    .sectionTitle {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .sectionTitle {
+        text-align: center;
+    }
+}
+
+.logoTitleWrap {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    margin-bottom: 40px !important;
+}
+
+@media screen and (max-width:991px) {
+    .logoTitleWrap {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+.contactLogo {
+    position: relative;
+}
+
+@media screen and (max-width:991px) {
+    .contactLogo {
+        float: none !important;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .contactLogo {
+        padding: 0 20px;
+    }
+}
+
+.contactLogo img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    float: right;
+}
+
+@media screen and (max-width:991px) {
+    .contactLogo img {
+        float: none;
+        margin: auto;
+    }
+}
+
+.contactLogo img.aspect-tall {
+    max-height: 150px;
+    width: auto;
+}
+
+.agentDetailSection {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    gap: 40px !important;
+    flex-wrap: wrap !important;
+    width: 100% !important;
+    flex-direction: row !important;
+}
+
+.agentProfile {
+    box-shadow: 8px 18px 30px -10px rgba(0, 0, 0, 0.25) !important;
+}
+
+.agentDetailHeading {
+    font-family: "AvenirNextLTPro-Demi" !important;
+    font-weight: 600 !important;
+    color: black !important;
+    margin-top: 20px !important;
+    font-size: 18px !important;
+    text-transform: uppercase !important;
+}
+
+.agentDetailContent {
+    font-family: "AvenirNextLTPro-Regular" !important;
+    color: #444444 !important;
+    font-size: 14px !important;
+}
+
+.agentDetailSectionRight {
+    flex: 1 !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: column !important;
+    height: 230px !important;
+}
+
+.buttonSection {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    gap: 0px 10px !important;
+}
+
+.contactButton {
+    border-color: #ccc !important;
+    color: #333 !important;
+    padding: 5px 16px !important;
+    font-size: 16px !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    border-radius: 1.5px !important;
+    min-width: 100px !important;
+}

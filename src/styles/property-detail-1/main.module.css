@@ -1,0 +1,252 @@
+.mainPage {
+    margin-bottom: 30px;
+    min-height: 100vh;
+}
+
+
+@media screen and (min-width: 768px) {
+    .mobileView {
+        display: none !important;
+    }
+
+    .PCView {
+        display: block !important;
+    }
+
+    .publicNotesHeading {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mobileView {
+        display: block !important;
+    }
+
+    .PCView {
+        display: none !important;
+    }
+
+    .publicNotesListedBY {
+        margin-bottom: 30px !important;
+    }
+
+    .listingBYAgent {
+        margin-bottom: 30px !important;
+    }
+
+
+    .publicNotesHeading {
+        font-size: 22px !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        font-size: 500 !important;
+        margin-bottom: 0px !important;
+    }
+}
+
+
+
+@media screen and (max-width: 575px) {
+    .publicNotes {
+        display: none !important;
+    }
+
+    .publicNotesMb {
+        font-size: 15px !important;
+        padding: 5px 0px !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Regular" !important;
+        font-weight: 500 !important;
+    }
+
+    .publicNotesListedBY {
+        font-size: 14px !important;
+        padding: 25px 0px !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Regular" !important;
+        font-weight: 500 !important;
+    }
+
+
+
+
+    .listingStatsHeadingPC {
+        display: block !important;
+        font-size: 20px !important;
+        font-weight: 500 !important;
+        margin-top: 10px !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+    }
+
+    .ViewMoreButton {
+        font-family: "AvenirNextLTPro-Demi" !important;
+        text-transform: capitalize !important;
+        color: #0064e5 !important;
+        padding-left: 0px !important;
+
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .agentDetailReplace {
+        display: block !important;
+    }
+
+    .listingBYAgent {
+        font-size: 17px !important;
+        padding: 25px 0px !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Regular" !important;
+        font-weight: 500 !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .agentDetailReplace {
+        display: none !important;
+    }
+
+    .listingBYAgent {
+        display: none !important;
+    }
+
+}
+
+@media screen and (min-width: 575px) {
+    .publicNotesListedBY {
+        font-size: 17px !important;
+        padding: 25px 0px !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Regular" !important;
+        font-weight: 500 !important;
+    }
+
+
+
+    .publicNotes {
+        font-size: 17px !important;
+        padding: 15px 0px 5px 0px !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Regular" !important;
+        font-weight: 500 !important;
+
+    }
+
+    .publicNotesMb {
+        display: none !important;
+    }
+
+    .listingStatsHeadingPC {
+        display: block !important;
+        font-size: 26px !important;
+        font-weight: 500 !important;
+        margin-top: 10px !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+    }
+
+    .ViewMoreButton {
+        display: none !important;
+    }
+}
+
+
+.moreInfoHeadingSeo {
+    display: block !important;
+    font-size: 17px !important;
+    margin-top: 20px !important;
+    color: black !important;
+    font-weight: 500 !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+}
+
+.moreInfoDescriptionSeo {
+    display: block !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    margin-top: 10px !important;
+    color: black !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    margin-bottom: 20px !important;
+    text-transform: capitalize !important;
+}
+
+.disclaimerText {
+    color: #666666 !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+}
+
+.disclaimerText a {
+    color: #1974e8 !important;
+}
+
+.outerBoxNotFound {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    height: 90vh !important;
+}
+
+.innerBoxNotFound {
+    max-width: 500px !important;
+    width: 100% !important;
+}
+
+.NotFoundText {
+    font-size: 14px !important;
+    margin-top: 20px !important;
+    color: black !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+}
+
+.NotFoundButton {
+    background-color: black !important;
+    color: white !important;
+    text-transform: capitalize !important;
+    margin-top: 20px !important;
+    font-family: "AvenirNextLTPro-Demi" !important;
+    padding: 6px 70px !important;
+}
+
+/* Default container styles */
+.propertyContainer {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+    transition: max-width 1s ease-in-out !important;
+  }
+
+  /* Media query for increasing the width smoothly between 1200px and 1536px */
+  @media (min-width: 1200px) and (max-width: 1535px) {
+    .propertyContainer {
+        max-width: 1200px !important;
+    }
+  }
+  @media (min-width: 1535px) and (max-width: 1800px) {
+    .propertyContainer {
+        max-width: 1368px !important;
+    }
+  }
+
+  /* Media query for handling screens larger than 1535px */
+  @media (min-width: 1800px) {
+    .propertyContainer {
+      max-width: 1536px !important;
+    }
+  }
+  .responsiveImage {
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    /* Ensure the image fits horizontally */
+    height: 100% !important;
+    /* Maintain the aspect ratio */
+    z-index: 5 !important;
+    /* Maintain image aspect ratio while fitting horizontally */
+    cursor: pointer !important;
+    border: 1px solid lightgray !important;
+}

@@ -1,0 +1,16 @@
+.searchBar {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    padding: 5px 15px !important;
+    border-bottom: 1px solid lightgray !important;
+    position: sticky !important;
+    top: 0px !important;
+    background-color: white !important;
+    z-index: 2 !important;
+}
+
+.searchField {
+    flex: 1 !important;
+}

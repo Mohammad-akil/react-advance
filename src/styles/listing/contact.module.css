@@ -1,0 +1,104 @@
+.contactSection {
+    background-image: url(../../assests/images/method_banner.jpg);
+    padding: 50px 20px !important;
+    position: relative;
+    background-position: 50%;
+    background-size: cover;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+
+
+.contactFormDesc {
+    font-size: 16px !important;
+    color: white !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+    text-align: center !important;
+}
+
+@media screen and (min-width: 768px) {
+    .contactFormHeading {
+        font-size: 35px !important;
+        color: white !important;
+        font-family: "AvenirNextLTPro-Bold" !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+        padding-bottom: 5px !important;
+    }
+
+    .contactSectionForm {
+        padding: 30px 80px !important;
+        background-color: rgba(0, 0, 0, 0.7);
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contactFormHeading {
+        font-size: 25px !important;
+        color: white !important;
+        font-family: "AvenirNextLTPro-Bold" !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+        padding-bottom: 0px !important;
+    }
+
+    .contactSectionForm {
+        padding: 30px !important;
+        background-color: rgba(0, 0, 0, 0.7);
+
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .contactSectionForm {
+        width: 800px !important;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 900px) {
+    .contactSectionForm {
+        width: 700px !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contactSectionForm {
+        width: 100% !important;
+
+    }
+}
+
+.contactForm {
+    padding: 40px 0px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 40px 0px !important;
+}
+
+.contactFormField {
+    background-color: transparent !important;
+    color: white !important;
+    font-family: "AvenirNextLTPro-Regular" !important;
+}
+
+.contactFormField input {
+    border-color: white !important;
+    color: white !important;
+    padding: 13.5px !important;
+}
+
+.contactFormField textarea {
+    border-color: white !important;
+    color: white !important;
+}
+
+.contactFormButton {
+    background-color: #00ADF1 !important;
+    color: white !important;
+    text-transform: capitalize !important;
+    padding: 15px 30px !important;
+}

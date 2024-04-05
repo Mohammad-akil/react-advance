@@ -1,0 +1,11 @@
+.footerArea {
+    height: 65px !important;
+    border-Top: 1px solid lightgrey !important;
+}
+
+.footerContainer {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    height: 65px !important;
+}

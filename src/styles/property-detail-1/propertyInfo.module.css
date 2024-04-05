@@ -1,0 +1,116 @@
+@media screen and (max-width: 575px) {
+    .propertyInfoHeading {
+        display: block !important;
+        font-size: 20px !important;
+        font-weight: 500 !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        margin-top: 10px !important;
+        color: black !important;
+    }
+
+    .propertyInfoDetailBoxInnerHeading {
+        font-size: 14px !important;
+        display: inline-block !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+    }
+
+    .propertyInfoDetailBoxHeading {
+        font-size: 14px !important;
+        border-bottom: 1px solid lightgrey;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        padding: 10px 16px !important;
+        background-color: #f4f4f4 !important;
+        color: black !important;
+    }
+
+    .propertyInfoDetailBoxInnerDes {
+        font-size: 13px !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Regular" !important;
+        padding-right: 6px !important;
+        display: inline !important;
+    }
+
+    .propertyInfoDetailBoxInnerSubHeading {
+        font-size: 13px !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        font-weight: 500 !important;
+    }
+
+    .propertyInfoDetailBoxInner {
+        padding: 16px !important;
+    }
+
+    /* .propertyInfoDetailBoxInner ul {
+        list-style: none !important;
+        padding-left: 0px !important;
+    } */
+}
+
+@media screen and (min-width: 575px) {
+    .propertyInfoDetailBoxInner {
+        padding: 16px !important;
+    }
+
+    .propertyInfoDetailBoxInner ul {
+        padding-left: 16px !important;
+    }
+
+    .propertyInfoHeading {
+        display: block !important;
+        font-size: 26px !important;
+        font-weight: 500 !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        margin-top: 10px !important;
+        color: black !important;
+    }
+
+    .propertyInfoDetailBoxInnerDes {
+        font-size: 16px !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Regular" !important;
+        padding-right: 6px !important;
+        display: inline !important;
+    }
+
+    .propertyInfoDetailBoxInnerHeading {
+        font-size: 18px !important;
+        display: inline-block !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+    }
+
+    .propertyInfoDetailBoxHeading {
+        font-size: 16px !important;
+        border-bottom: 1px solid lightgrey;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        padding: 10px 16px !important;
+        background-color: #f4f4f4 !important;
+        color: black !important;
+    }
+
+    .propertyInfoDetailBoxInnerSubHeading {
+        font-size: 16px !important;
+        color: black !important;
+        font-family: "AvenirNextLTPro-Demi" !important;
+        font-weight: 500 !important;
+    }
+}
+
+.propertyInfoArea {
+    padding: 20px 0px !important;
+}
+
+.propertyInfoDetailBox {
+    border: 1px solid lightgrey;
+}
+
+.theme1Heading {
+    font-size: 22px !important;
+    font-weight: 600 !important;
+    text-transform: capitalize !important;
+    color: #666666 !important;
+    margin-top: 40px !important;
+}
